@@ -23,7 +23,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"> <img src="assets/logo.png" width="60" height="60" class="d-inline-block mx-2">
                 <b> YPN Amir Hamzah </b></a>
@@ -36,23 +36,23 @@
                     <a class="nav-link active" aria-current="page" href="#">Beranda</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Jurusan</a>
+                    <a class="nav-link" href="#major">Jenjang</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Sekolah</a>
+                    <a class="nav-link" href="#about">Tentang Sekolah</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Prestasi Siswa</a>
+                    <a class="nav-link" href="#gallery">Kegiatan Yayasan</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="#footer">Kontak</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
 
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -179,8 +179,8 @@
                         <div class="col-md-1"></div>
                         <div class="col-md-5">
                             <div class="row">
-                                <div class="col-md-6 mt-5 mb-3 aos-init aos-animate img-fluid" data-aos="fade-left" width="">
-                                   <img src="assets/hari-guru/12.jpeg">
+                                <div class="col mt-5 mb-3 aos-init aos-animate" data-aos="fade-left">
+                                   <img src="assets/hari-guru/12.jpg" class="img-fluid">
                                 </div>
                             </div>
                         </div>
@@ -189,8 +189,8 @@
             </div>
         </section>
 
-        <section id="major">
-          <div class="container major-content">
+        <section id="gallery">
+          <div class="container major-content mb-4">
             <div class="container">
               <div class="row">
                 <div class="col-lg col-md mt-5 mb-3">
@@ -211,7 +211,7 @@
                        <li class="btn btn-outline-dark text my-1" data-filter=".sch">Sekolah</li>
                     </ul>
                  </div>
-                 <div class="portfolio-item row">
+                 <div class="portfolio-item row mb-4">
                     <div class="item tb col-lg-3 col-md-4 col-6 col-sm">
                        <a href="assets/bola/2.jpeg" class="fancylight popup-btn" data-fancybox-group="light"> 
                        <img class="img-fluid" src="assets/bola/2.jpeg">
